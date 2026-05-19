@@ -1,0 +1,100 @@
+{
+  "Records": [
+    {
+      "eventTime": "2026-05-08T12:00:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "userIdentity": {
+        "userName": "alice",
+        "arn": "arn:aws:iam::123456789012:user/alice"
+      },
+      "sourceIPAddress": "203.0.113.10",
+      "errorMessage": "Failed authentication",
+      "requestParameters": {},
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    },
+    {
+      "eventTime": "2026-05-08T12:01:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "userIdentity": {
+        "userName": "alice",
+        "arn": "arn:aws:iam::123456789012:user/alice"
+      },
+      "sourceIPAddress": "203.0.113.10",
+      "errorMessage": "Failed authentication",
+      "requestParameters": {},
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    },
+    {
+      "eventTime": "2026-05-08T12:02:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "userIdentity": {
+        "userName": "alice",
+        "arn": "arn:aws:iam::123456789012:user/alice"
+      },
+      "sourceIPAddress": "203.0.113.10",
+      "errorMessage": "Failed authentication",
+      "requestParameters": {},
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    },
+    {
+      "eventTime": "2026-05-08T12:03:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "userIdentity": {
+        "userName": "alice",
+        "arn": "arn:aws:iam::123456789012:user/alice"
+      },
+      "sourceIPAddress": "203.0.113.10",
+      "requestParameters": {},
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      }
+    },
+    {
+      "eventTime": "2026-05-08T12:04:00Z",
+      "eventName": "ListUsers",
+      "eventSource": "iam.amazonaws.com",
+      "userIdentity": {
+        "arn": "arn:aws:sts::123456789012:assumed-role/Admin/session"
+      },
+      "sourceIPAddress": "198.51.100.22",
+      "requestParameters": {},
+      "responseElements": {}
+    },
+    {
+      "eventTime": "2026-05-08T12:05:00Z",
+      "eventName": "AttachUserPolicy",
+      "eventSource": "iam.amazonaws.com",
+      "userIdentity": {
+        "userName": "bob"
+      },
+      "sourceIPAddress": "198.51.100.22",
+      "requestParameters": {
+        "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess",
+        "userName": "bob"
+      },
+      "responseElements": {}
+    },
+    {
+      "eventTime": "2026-05-08T12:06:00Z",
+      "eventName": "ListBuckets",
+      "eventSource": "s3.amazonaws.com",
+      "userIdentity": {
+        "userName": "charlie"
+      },
+      "sourceIPAddress": "192.0.2.55",
+      "requestParameters": {},
+      "responseElements": {}
+    },
+    {
+      "eventTime": "2026-05-08T12:07:00Z",
+      "eventName": "DeleteTrail",
